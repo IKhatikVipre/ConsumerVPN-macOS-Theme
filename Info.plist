@@ -22,6 +22,8 @@
 	<string>????</string>
 	<key>CFBundleVersion</key>
 	<string>0</string>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
 	<key>LSApplicationCategoryType</key>
 	<string>public.app-category.utilities</string>
 	<key>LSMinimumSystemVersion</key>
@@ -49,6 +51,11 @@
 	<string>MainMenu</string>
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
+	<key>SMPrivilegedExecutables</key>
+	<dict>
+		<key>com.consumervpn.osx.vpnhelper</key>
+		<string>anchor apple generic and identifier "com.consumervpn.osx.vpnhelper" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = J6DC9F6B59)</string>
+	</dict>
 	<key>SUEnableAutomaticChecks</key>
 	<false/>
 </dict>
